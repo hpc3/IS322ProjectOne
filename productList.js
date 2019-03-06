@@ -6,10 +6,9 @@
 
     var mockDatabase =
         [
-            {_id : 'test', color : 'test', style : 'test', wireless: true, price: 'test', description: 'testyo', brand: ''},
+            {_id : '', color : 'test', style : 'test', wireless: true, price: 'test', description: 'testyo', brand: ''},
             {_id : 'heretoo', color : 'test1', style : 'test1', wireless: true, price: 'test1', description: '', brand: ''},
             {_id : 'andHere', color : 'test2', style : 'test2', wireless: true, price: 'test2', description: '', brand: ''},
-
             {_id : 'yo', color : 'look its a color', style : 'it’s a style can you believe it', wired: 'false', price: '4 dollars', description: 'its a description', brand: 'Mr. Banana Grabber'},
             {_id : 'yo', color : 'look its a color', style : 'it’s a style can you believe it', wired: 'false', price: '4 dollars', description: 'its a description', brand: 'Mr. Banana Grabber'},
             {_id : 'yo', color : 'look its a color', style : 'it’s a style can you believe it', wired: 'false', price: '4 dollars', description: 'its a description', brand: 'Mr. Banana Grabber'},
