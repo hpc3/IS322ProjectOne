@@ -11,11 +11,11 @@
             {_id : 'Comfort Quiet 35', color : 'Black', style : 'Around the Ear', wireless: true, price: '$350', description: 'Awesome Noise Cancelling headphones', brand: 'Bose'},
             {_id : 'Comfort Quiet 35', color : 'Silver', style : 'Around the Ear', wireless: true, price: '$350', description: 'Awesome Noise Cancelling headphones', brand: 'Bose'},
             {_id : 'Comfort Quiet 35', color : 'Blue', style : 'Around the Ear', wireless: true, price: '$350', description: 'Awesome Noise Cancelling headphones', brand: 'Bose'},
-            {_id : 'Solo3', color : 'Black', style : 'Over the Ear', wireless: true, price:'300', description: 'Awesome Wireless headphones headphones', brand: 'Beats'},
-            {_id : 'Solo3', color : 'Matte Black', style : 'Over the Ear', wireless: true, price:'300', description: 'Awesome Wireless headphones headphones', brand: 'Beats'},
-            {_id : 'Solo3', color : 'Silver', style : 'Over the Ear', wireless: true, price:'300', description: 'Awesome Wireless headphones headphones', brand: 'Beats'},
-            {_id : 'Solo3', color : 'Gold', style : 'Over the Ear', wireless: true, price:'300', description: 'Awesome Wireless headphones headphones', brand: 'Beats'},
-            {_id : 'Solo3', color : 'Rose Gold', style : 'Over the Ear', wireless: true, price:'300', description: 'Awesome Wireless headphones headphones', brand: 'Beats'},
+            {_id : 'Solo3', color : 'Black', style : 'Over the Ear', wireless: false, price:'300', description: 'Awesome Wireless headphones headphones', brand: 'Beats'},
+            {_id : 'Solo3', color : 'Matte Black', style : 'Over the Ear', wireless: false, price:'300', description: 'Awesome Wireless headphones headphones', brand: 'Beats'},
+            {_id : 'Solo3', color : 'Silver', style : 'Over the Ear', wireless: false, price:'300', description: 'Awesome Wireless headphones headphones', brand: 'Beats'},
+            {_id : 'Solo3', color : 'Gold', style : 'Over the Ear', wireless: false, price:'300', description: 'Awesome Wireless headphones headphones', brand: 'Beats'},
+            {_id : 'Solo3', color : 'Rose Gold', style : 'Over the Ear', wireless: false, price:'300', description: 'Awesome Wireless headphones headphones', brand: 'Beats'},
         ];
 
 
