@@ -4,3 +4,21 @@
 
 
 }
+
+
+#productsHeader{
+    font-size: 3em;
+    margin-right: 5em;
+    color: white;
+    text-shadow:
+            -1px -1px 0 #000000,
+            1px -1px 0 #000,
+            -1px 1px 0 #000,
+            1px 1px 0 #000;
+}
+
+
+#headerBreak{
+    background-color: black;
+}
+
