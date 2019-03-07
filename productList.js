@@ -11,6 +11,7 @@
 
     var mockDatabase =
         [
+
             {_id : 'Greg\'s super phones', color : 'black', style : 'test', bluetooth: true, price: 'test', description: 'testyo', brand: '', photo: 'media/headphone-image-1.jpg'},
             {_id : 'Beat By Beats By Dre', color : 'white', style : 'test1', bluetooth: true, price: 'test1', description: '', brand: '' , photo: 'media/headphone-image-2.jpg'},
             {_id : 'Two Tin Cans', color : 'red', style : 'test2', bluetooth: true, price: 'test2', description: '', brand: '', photo: 'media/headphone-image-3.jpg'},
@@ -24,7 +25,16 @@
             {_id : 'X-Sounds 5000', color : 'look its a color', style : 'it’s a style can you believe it', bluetooth: false, price: '4 dollars', description: 'its a description', brand: 'Mr. Banana Grabber' , photo: 'media/headphone-image-10.jpg'},
             {_id : '*Joke About Camo*', color : 'look its a color', style : 'it’s a style can you believe it', bluetooth: false, price: '4 dollars', description: 'its a description', brand: 'Mr. Banana Grabber' , photo: 'media/headphone-image-11.jpg'},
             {_id : 'Mega Stealth Earmuffs', color : 'look its a color', style : 'it’s a style can you believe it', bluetooth: false, price: '4 dollars', description: 'its a description', brand: 'Mr. Banana Grabber' , photo: 'media/headphone-image-12.jpg'}
-
+            {_id : 'MDRXMIII', color : 'Black', style : 'Around the Ear', wireless: true, price: '$350', description: 'Awesome Noise Cancelling headphones', brand: 'Sony'},
+            {_id : 'MDRXMIII', color : 'Gold', style : 'Around the Ear', wireless: true, price: '$350', description: 'Awesome Noise Cancelling headphones', brand: 'Sony'},
+            {_id : 'Comfort Quiet 35', color : 'Black', style : 'Around the Ear', wireless: true, price: '$350', description: 'Awesome Noise Cancelling headphones', brand: 'Bose'},
+            {_id : 'Comfort Quiet 35', color : 'Silver', style : 'Around the Ear', wireless: true, price: '$350', description: 'Awesome Noise Cancelling headphones', brand: 'Bose'},
+            {_id : 'Comfort Quiet 35', color : 'Blue', style : 'Around the Ear', wireless: true, price: '$350', description: 'Awesome Noise Cancelling headphones', brand: 'Bose'},
+            {_id : 'Solo3', color : 'Black', style : 'Over the Ear', wireless: false, price:'300', description: 'Awesome Wireless headphones headphones', brand: 'Beats'},
+            {_id : 'Solo3', color : 'Matte Black', style : 'Over the Ear', wireless: false, price:'300', description: 'Awesome Wireless headphones headphones', brand: 'Beats'},
+            {_id : 'Solo3', color : 'Silver', style : 'Over the Ear', wireless: false, price:'300', description: 'Awesome Wireless headphones headphones', brand: 'Beats'},
+            {_id : 'Solo3', color : 'Gold', style : 'Over the Ear', wireless: false, price:'300', description: 'Awesome Wireless headphones headphones', brand: 'Beats'},
+            {_id : 'Solo3', color : 'Rose Gold', style : 'Over the Ear', wireless: false, price:'300', description: 'Awesome Wireless headphones headphones', brand: 'Beats'},
         ];
 
     //Css '...'
