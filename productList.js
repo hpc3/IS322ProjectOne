@@ -18,7 +18,6 @@
             {_id : 'Beats by Beat by Beats by Dre', color : 'look its a color', style : 'it’s a style can you believe it', bluetooth: false, price: '4 dollars', description: 'its a description', brand: 'Mr. Banana Grabber' , photo: 'media/headphone-image-4.jpg'},
             {_id : 'Prograde BlackHawks', color : 'look its a color', style : 'it’s a style can you believe it', bluetooth: false, price: '4 dollars', description: 'its a description', brand: 'Mr. Banana Grabber' , photo: 'media/headphone-image-5.jpg'},
             {_id : 'Bose', color : 'look its a color', style : 'it’s a style can you believe it', bluetooth: false, price: '4 dollars', description: 'its a description', brand: 'Mr. Banana Grabber' , photo: 'media/headphone-image-6.jpg'},
-
             {_id : 'Real Men Wear Pink', color : 'test', style : 'test', bluetooth: true, price: 'test', description: 'testyo', brand: '' , photo: 'media/headphone-image-7.jpg'},
             {_id : 'Industrial Soundphones', color : 'test1', style : 'test1', bluetooth: true, price: 'test1', description: '', brand: '' , photo: 'media/headphone-image-8.jpg'},
             {_id : 'Two Raspberry\'s', color : 'test2', style : 'test2', bluetooth: true, price: 'test2', description: '', brand: '' , photo: 'media/headphone-image-9.jpg'},
@@ -64,6 +63,7 @@
 
         }
 
+
         renderCards(mockDatabase);
 
 
@@ -86,7 +86,8 @@
 
 
 
-})();
+}
+)();
 
 
 
