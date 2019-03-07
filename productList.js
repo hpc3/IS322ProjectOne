@@ -6,13 +6,16 @@
 
     var mockDatabase =
         [
-            {_id : '', color : 'test', style : 'test', wireless: true, price: 'test', description: 'testyo', brand: ''},
-            {_id : 'heretoo', color : 'test1', style : 'test1', wireless: true, price: 'test1', description: '', brand: ''},
-            {_id : 'andHere', color : 'test2', style : 'test2', wireless: true, price: 'test2', description: '', brand: ''},
-            {_id : 'yo', color : 'look its a color', style : 'it’s a style can you believe it', wired: 'false', price: '4 dollars', description: 'its a description', brand: 'Mr. Banana Grabber'},
-            {_id : 'yo', color : 'look its a color', style : 'it’s a style can you believe it', wired: 'false', price: '4 dollars', description: 'its a description', brand: 'Mr. Banana Grabber'},
-            {_id : 'yo', color : 'look its a color', style : 'it’s a style can you believe it', wired: 'false', price: '4 dollars', description: 'its a description', brand: 'Mr. Banana Grabber'},
-
+            {_id : 'MDRXMIII', color : 'Black', style : 'Around the Ear', wireless: true, price: '$350', description: 'Awesome Noise Cancelling headphones', brand: 'Sony'},
+            {_id : 'MDRXMIII', color : 'Gold', style : 'Around the Ear', wireless: true, price: '$350', description: 'Awesome Noise Cancelling headphones', brand: 'Sony'},
+            {_id : 'Comfort Quiet 35', color : 'Black', style : 'Around the Ear', wireless: true, price: '$350', description: 'Awesome Noise Cancelling headphones', brand: 'Bose'},
+            {_id : 'Comfort Quiet 35', color : 'Silver', style : 'Around the Ear', wireless: true, price: '$350', description: 'Awesome Noise Cancelling headphones', brand: 'Bose'},
+            {_id : 'Comfort Quiet 35', color : 'Blue', style : 'Around the Ear', wireless: true, price: '$350', description: 'Awesome Noise Cancelling headphones', brand: 'Bose'},
+            {_id : 'Solo3', color : 'Black', style : 'Over the Ear', wireless: true, price:'300', description: 'Awesome Wireless headphones headphones', brand: 'Beats'},
+            {_id : 'Solo3', color : 'Matte Black', style : 'Over the Ear', wireless: true, price:'300', description: 'Awesome Wireless headphones headphones', brand: 'Beats'},
+            {_id : 'Solo3', color : 'Silver', style : 'Over the Ear', wireless: true, price:'300', description: 'Awesome Wireless headphones headphones', brand: 'Beats'},
+            {_id : 'Solo3', color : 'Gold', style : 'Over the Ear', wireless: true, price:'300', description: 'Awesome Wireless headphones headphones', brand: 'Beats'},
+            {_id : 'Solo3', color : 'Rose Gold', style : 'Over the Ear', wireless: true, price:'300', description: 'Awesome Wireless headphones headphones', brand: 'Beats'},
         ];
 
 
