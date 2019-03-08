@@ -11,20 +11,6 @@
 
     var mockDatabase =
         [
-            /*
-            {_id : 'Greg\'s super phones', model: '', color : 'black', style : 'test', wireless: true, price: 'test', description: 'testyo', brand: '', photo: 'media/headphone-image-1.jpg'},
-            {_id : 'Beat By Beats By Dre', color : 'white', style : 'test1', wireless: true, price: 'test1', description: '', brand: '' , photo: 'media/headphone-image-2.jpg'},
-            {_id : 'Two Tin Cans', color : 'red', style : 'test2', wireless: true, price: 'test2', description: '', brand: '', photo: 'media/headphone-image-3.jpg'},
-            {_id : 'Beats by Beat by Beats by Dre', color : 'look its a color', style : 'it’s a style can you believe it', wireless: false, price: '4 dollars', description: 'its a description', brand: 'Mr. Banana Grabber' , photo: 'media/headphone-image-4.jpg'},
-            {_id : 'Prograde BlackHawks', color : 'look its a color', style : 'it’s a style can you believe it', wireless: false, price: '4 dollars', description: 'its a description', brand: 'Mr. Banana Grabber' , photo: 'media/headphone-image-5.jpg'},
-            {_id : 'Bose', color : 'look its a color', style : 'it’s a style can you believe it', wireless: false, price: '4 dollars', description: 'its a description', brand: 'Mr. Banana Grabber' , photo: 'media/headphone-image-6.jpg'},
-
-            {_id : 'Real Men Wear Pink', color : 'test', style : 'test', wireless: true, price: 'test', description: 'testyo', brand: '' , photo: 'media/headphone-image-7.jpg'},
-            {_id : 'Industrial Soundphones', color : 'test1', style : 'test1', wireless: true, price: 'test1', description: '', brand: '' , photo: 'media/headphone-image-8.jpg'},
-            {_id : 'Two Raspberry\'s', color : 'test2', style : 'test2', wireless: true, price: 'test2', description: '', brand: '' , photo: 'media/headphone-image-9.jpg'},
-            {_id : 'X-Sounds 5000', color : 'look its a color', style : 'it’s a style can you believe it', wireless: false, price: '4 dollars', description: 'its a description', brand: 'Mr. Banana Grabber' , photo: 'media/headphone-image-10.jpg'},
-            */
-
             {_id : '1', model: '*Joke About Camo*',color : 'look its a color', style : 'it’s a style can you believe it', wireless: false, price: '4', description: 'its a description', brand: 'Mr. Banana Grabber' , photo: 'media/headphone-image-11.jpg'},
             {_id : '2', model: 'NightHawk 5000\'s', color : 'look its a color', style : 'it’s a style can you believe it', wireless: false, price: '4', description: 'its a description', brand: 'Mr. Banana Grabber' , photo: 'media/headphone-image-12.jpg'},
             {_id : '3', model: 'MDRXMIII', color : 'Black', style : 'Around the Ear', wireless: true, price: '350', description: 'Awesome Noise Cancelling headphones', brand: 'Sony', photo: 'media/headphone-image-1.jpg'},
@@ -66,6 +52,7 @@
 
         }
 
+
         renderCards(mockDatabase);
 
 
@@ -85,8 +72,6 @@
         var value = event.target.value === 'true';
         toggleBluetooth(value);
     });
-
-
 
 
     function orderBy(order){
@@ -189,6 +174,7 @@
 
 
 })();
+
 
 
 
