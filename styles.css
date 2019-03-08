@@ -4,3 +4,138 @@
 
 
 }
+
+
+.product-filters{
+    width: 100%;
+}
+
+#productsHeader{
+    font-size: 3em;
+    margin-right: 5em;
+    color: white;
+    text-shadow:
+            -1px -1px 0 #000000,
+            1px -1px 0 #000,
+            -1px 1px 0 #000,
+            1px 1px 0 #000;
+}
+
+
+#headerBreak{
+    background-color: black;
+}
+
+/*
+.content-container{
+    margin: auto;
+    display: flex;
+    min-height: 100%;
+}
+
+
+.card-container{
+    flex: 1 1 auto;
+    width: 100%;
+    margin: 10px;
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+*/
+
+
+
+@media only screen and (max-width: 1366px) {
+
+    /*
+    .content-container {
+        flex-direction: column;
+        width: 900px;
+    }
+    */
+
+
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    /*
+    .content-container {
+        width: 720px;
+    }
+
+    .headphone-card {
+        flex-basis: 330px;
+        height: 330px;
+        color: white;
+        background-color: white;
+    }
+
+    */
+
+
+    .headphone-card{
+        align-content: center;
+    }
+
+    #productsHeader{
+
+        padding: 0;
+    }
+
+
+
+}
+
+@media only screen and (min-width: 411px) and (max-width: 767px){
+
+
+    .card-container{
+        margin-left: 100px;
+    }
+
+    .content-container{
+        width: 100%;
+        align-content: center;
+        justify-content: center;
+        margin-left: 5em;
+    }
+
+
+
+
+    .idTest{
+        color: white;
+
+    }
+
+    #productsHeader{
+        width: 100%;
+    }
+
+
+    .product-filters{
+        width: 100%;
+    }
+
+
+    footer{
+
+        margin-left: 5em;
+
+        width: 100%;
+
+    }
+
+
+}
+
+@media only screen and (max-width: 410px){
+
+}
+
+
+
+
+

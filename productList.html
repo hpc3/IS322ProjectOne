@@ -7,6 +7,13 @@
     <meta name="author" content="Henry Casey">
     <link rel="icon" href="../../../../favicon.ico">
     <link href="styles.css" rel="stylesheet">
+    <link href="css/bootstrap-grid.css" rel="stylesheet">
+    <link href="css/bootstrap-grid.min.css" rel="stylesheet">
+    <link href="css/bootstrap-reboot.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap-reboot.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
 
     <title>Products Page</title>
 
@@ -31,41 +38,61 @@
 
 
 
-<main role="main" class="container">
+<main role="main" class="container app-container">
 
-    <div class="container">
+
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Headphones R US</a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="productList.html">Product Page</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+
+
+    <div class="containerFluid">
         <div class="row">
 
-            <div class="offset-sm-5"><h3>Prodcuts</h3></div>
+            <div class="offset-sm-5 align-content-center"><h2 id="productsHeader">Products</h2></div>
 
         </div>
 
-        <div class="row">
-            <div class="offset-sm-3 pl-4">
 
-                <select name="style" class="position-filter">
-                    <!--FILL LATER WITH INFO FROM PEEEEETER-->
 
-                    <option value="" disabled selected>Style</option>
-                    <option></option>
-                    <option>Filler</option>
-                    <option>Filler</option>
+        <div class="row mt-4 mb-4 ml-5">
+            <div class="offset-sm-3 pl-5 product-filters">
+
+
+                <select name="sort" id="sort" class="position-filter">
+                    <option value="" disabled selected>Sort By</option>
+                    <option value="id">ID</option>
+                    <option value="brand">Brand (A-Z)</option>
+                    <option value="style">Style (A-Z)</option>
                 </select>
-                <select name="az" class="position-filter">
-                    <option value="" disabled selected>Title</option>
-                    <option>A-Z</option>
-                    <option>Z-A</option>
-                </select>
-                <select name="price" class="position-filter">
+                <select name="priceFilter" id="priceFilter" class="position-filter" >
                     <option value="" disabled selected>Price</option>
-                    <option>High-Low</option>
-                    <option>Low-High</option>
+                    <option value="h2l">High-Low</option>
+                    <option value="l2h">Low-High</option>
                 </select>
-                <select name="connec" class="position-filter">
+
+
+                <select name="connec" class="position-filter" id="connectionFilter">
                     <option value="" disabled selected>Connection</option>
-                    <option>Wired</option>
-                    <option>Wireless</option>
-                    <option>Both</option>
+                    <option value="true">View All</option>
+                    <option value="false">Wireless</option>
                 </select>
 
 
@@ -78,170 +105,43 @@
 
     </div>
 
+    <div class="content-container">
+        <div class="container bg-secondary mb-4 rounded border border-dark card-container">
+            <div class="row mb-3" id="testFill">
 
-    <div class="container">
-        <div class="row" id="testFill">
-
-        </div>
-    </div>
-
-
-
-    <div class="containerFluid mt-5">
-        <div class="row mb-4">
-            <div class="col-sm-4">
-                <div class="card product-card " style="width: 18rem;">
-                    <img class="card-img-top" src="..." alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Card Hello</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-sm-4 product-card">
-                <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="..." alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Card bye</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-4 product-card">
-                <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="..." alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Card okay</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row mb-4">
-            <div class="col-sm-4">
-                <div class="card product-card " style="width: 18rem;">
-                    <img class="card-img-top" src="..." alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Card Hello</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-sm-4 product-card">
-                <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="..." alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Card bye</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-4 product-card">
-                <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="..." alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Card okay</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row mb-4">
-            <div class="col-sm-4">
-                <div class="card product-card " style="width: 18rem;">
-                    <img class="card-img-top" src="..." alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Card Hello</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-sm-4 product-card">
-                <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="..." alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Card bye</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-4 product-card">
-                <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="..." alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Card okay</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row mb-4">
-            <div class="col-sm-4">
-                <div class="card product-card " style="width: 18rem;">
-                    <img class="card-img-top" src="..." alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Card Hello</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-sm-4 product-card">
-                <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="..." alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Card bye</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-4 product-card">
-                <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="..." alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Card okay</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                </div>
             </div>
         </div>
     </div>
 
+    <footer class="py-5 bg-dark">
+        <div class="container">
+            <div class="row">
 
 
+                <!-- address and phone number -->
+                <div class="col-lg-4">
+                    <p class="m-0 text-center text-white">385 Beats st. Bass Vale, NJ 07621<br><a href="201-548-8840">(201) 548-8840</a></p>
+                </div>
 
-
-
-
-    '<div class="col-sm-4">
-        <div class="card product-card " style="width: 18rem;">
-            <img class="card-img-top" src="..." alt="Card image cap">
-            <div class="card-body">
-                <h5 class="card-title">'+ result.id '</h5>
-                <p class="card-text">' + result.description '</p>
-                <a href="#" class="btn btn-primary"></a>
+                <!-- social media -->
+                <div class="col-lg-4">
+                    <!--text-white-->
+                    <p class="m-0 text-center text-white">Copyright &copy; Your Website 2019</p>
+                </div>
+                <div class="col-lg-4">
+                    <div class="text-center social-icon">
+                        <a href="#" target="_blank"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-instagram"></i></a>
+                        <a href="#" target="_blank"><i class="fa fa-google-plus"></i></a>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>'
 
-
-
-
+        <!-- /.container -->
+    </footer>
+    
 
 </main><!-- /.container -->
 
