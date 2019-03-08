@@ -14,6 +14,7 @@
     <link href="css/bootstrap-reboot.css" rel="stylesheet">
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
+
     <title>Products Page</title>
 
     <!-- Bootstrap core CSS -->
@@ -37,10 +38,27 @@
 
 
 
-<main role="main" class="container">
+<main role="main" class="container app-container">
 
 
-
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Headphones R US</a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="productList.html">Product Page</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
 
 
@@ -55,32 +73,26 @@
 
 
         <div class="row mt-4 mb-4 ml-5">
-            <div class="offset-sm-3 pl-4">
+            <div class="offset-sm-3 pl-5 product-filters">
 
-                <select name="style" class="position-filter">
-                    <!--FILL LATER WITH INFO FROM PEEEEETER-->
 
-                    <option value="" disabled selected>Style</option>
-                    <option></option>
-                    <option>Filler</option>
-                    <option>Filler</option>
+                <select name="sort" id="sort" class="position-filter">
+                    <option value="" disabled selected>Sort By</option>
+                    <option value="id">ID</option>
+                    <option value="brand">Brand (A-Z)</option>
+                    <option value="style">Style (A-Z)</option>
                 </select>
-                <select name="az" class="position-filter">
-                    <option value="" disabled selected>Title</option>
-                    <option>A-Z</option>
-                    <option>Z-A</option>
-                </select>
-                <select name="price" class="position-filter">
+                <select name="priceFilter" id="priceFilter" class="position-filter" >
                     <option value="" disabled selected>Price</option>
-                    <option>High-Low</option>
-                    <option>Low-High</option>
+                    <option value="h2l">High-Low</option>
+                    <option value="l2h">Low-High</option>
                 </select>
 
 
                 <select name="connec" class="position-filter" id="connectionFilter">
                     <option value="" disabled selected>Connection</option>
-                    <option name="wired" value="false">Wired</option>
-                    <option name="wireless" value="true">Wireless</option>
+                    <option value="true">View All</option>
+                    <option value="false">Wireless</option>
                 </select>
 
 
@@ -93,15 +105,42 @@
 
     </div>
 
+    <div class="content-container">
+        <div class="container bg-secondary mb-4 rounded border border-dark card-container">
+            <div class="row mb-3" id="testFill">
 
-    <div class="container bg-secondary mb-4 rounded border border-dark">
-        <div class="row mb-3" id="testFill">
-
+            </div>
         </div>
     </div>
 
+    <footer class="py-5 bg-dark">
+        <div class="container">
+            <div class="row">
 
 
+                <!-- address and phone number -->
+                <div class="col-lg-4">
+                    <p class="m-0 text-center text-white">385 Beats st. Bass Vale, NJ 07621<br><a href="201-548-8840">(201) 548-8840</a></p>
+                </div>
+
+                <!-- social media -->
+                <div class="col-lg-4">
+                    <!--text-white-->
+                    <p class="m-0 text-center text-white">Copyright &copy; Your Website 2019</p>
+                </div>
+                <div class="col-lg-4">
+                    <div class="text-center social-icon">
+                        <a href="#" target="_blank"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-instagram"></i></a>
+                        <a href="#" target="_blank"><i class="fa fa-google-plus"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- /.container -->
+    </footer>
     
 
 </main><!-- /.container -->
