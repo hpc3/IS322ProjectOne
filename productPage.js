@@ -27,6 +27,7 @@
                 var filler = results.map(function(result){
             return results[0].model;
         });
+        productPage.innerHtml = mockDatabase[0].model;
 
 
     }
