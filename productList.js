@@ -102,7 +102,7 @@
                         }
                     }) :
                         mockDatabase.sort(function (a,b) {
-                            return a[order] - b[order];
+                            return a._id - b._id;
 
                         });
 
@@ -151,11 +151,11 @@
 
 
         var priceSort = mockDatabase.sort(function(a,b){
-            if (order.value === 'h2l'){
-                return a[order] - b[order];
+            if (order === 'h2l'){
+                return b.price - a.price;
 
             }else{
-                return b[order] - a[order];
+                return a.price - b.price;
             }
         });
 
