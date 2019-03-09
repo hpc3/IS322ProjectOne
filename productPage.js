@@ -23,9 +23,9 @@
 
 
     function renderProductTitle(results){
-        var productPage = document.querySelector('#Products h3');
+        var productPage = document.querySelector('#products h3#product');
                 var filler = results.map(function(result){
-            return results.model;
+            return results[0].model;
         });
 
 
