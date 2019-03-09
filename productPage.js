@@ -1,9 +1,5 @@
 
 
-//To do
-// Filter :^(
-// fill mockDB with jazz
-//style cards
 
 (function () {
 
@@ -25,19 +21,18 @@
             {_id : '12', model: 'Solo3',color : 'Rose Gold', style : 'Over the Ear', wireless: false, price:'300', description: 'Awesome Wireless headphones headphones', brand: 'Beats', photo: 'media/headphone-image-10.jpg'}
         ];
 
-    //Css '...'
 
-    function renderProducTitle(results){
+    function renderProductTitle(results){
         var productPage = document.querySelector('#Products h3');
                 var filler = results.map(function(result){
-            return '<p>' + results.model +'</p>';
+            return results.model;
         });
 
 
     }
 
 
-    renderCards(mockDatabase);
+    renderProductTitle(mockDatabase);
 
 })();
 
