@@ -21,20 +21,28 @@
             {_id : '12', model: 'Solo3',color : 'Rose Gold', style : 'Over the Ear', wireless: false, price:'300', description: 'Awesome Wireless headphones headphones', brand: 'Beats', photo: 'media/headphone-image-10.jpg'}
         ];
 
+    var r=Math.floor((Math.random()*12)+1);
 
     function renderProductTitle(results){
-        var productPage = document.querySelector('#products h3#product');
+        var productPage = document.querySelector('#productTitle h3#product');
                 var filler = results.map(function(result){
-            return results[0].model;
+            return results[r].model + results[r].photo + '<img src=' +results[r].photo + '/>' ;
         });
-        productPage.innerHtml = mockDatabase[0].model;
+        productPage.innerHTML = mockDatabase[r].model +  '<img src=' +results[r].photo + '/>' ;
 
 
+    }
+    function renderProductDescription(results){
+        var productPage = document.querySelector('#productDescription div#description');
+        var filler = results.map(function(result){
+            return results[r].style + results[r].description + '<h1> the price is' + results[r].price + '</h1>';
+        });
+        productPage.innerHTML = mockDatabase[r].description + '<h1> the price is $' + results[r].price + '</h1>';
     }
 
 
     renderProductTitle(mockDatabase);
-
+    renderProductDescription(mockDatabase);
 })();
 
 
