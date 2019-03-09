@@ -39,7 +39,7 @@
                             + result.model +
                             '</h5>' +
                             '<ul><li>Brand: ' + result.brand + '</li><li> Price: ' + result.price + ' </ul>' +
-                             '<a href="#" class="btn btn-primary">More Info</a></div></div></div>';
+                             '<a href="/productPage.html" class="btn btn-primary">More Info</a></div></div></div>';
 
 
 
